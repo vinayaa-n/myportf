@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+   
+    font-family: "Brygada 1918", serif;
+   
+   
+}
+nav{
+    display:flex;
+    justify-content:space-around ;
+    align-items: center;
+    height:70px;
+    font-family: "Kalam", cursive;
+    font-size:23px;
+    background-color:#F3D0D7
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+    text-decoration: none;
+    color:white;
+}
+nav ul li a{
+    color:#3C5B6F;
+    text-decoration: none;
+   
+    position:relative;
+
+}
+nav ul li a::after{
+    content: '';
+    width:0;
+    height:3px;
+    background:#B0578D;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+nav ul li a:hover:after{
+    width:100%;
+    font-size:1.04rem
+}
+.left{
+    color:#3C5B6F;
+}
+
+.name{
+    margin-left:700px;
+    padding-top: 300px;
+   
+
+}
+.name h1{
+    font-family: "Caveat", cursive;
+    font-size: 80px;
+    margin-bottom:5px;
+}
+.name h2{
+    font-family: "Caveat", cursive;
+    margin-left:50px;
+    
+
+}
+#firstsection{
+    height:100vh;
+    background-color:#F3D0D7 ;
+}
+section{
+   
+    background-color:#F3D0D7 ;
+}
+hr{
+    border:none;
+}
+#second-section{
+    height:100vh;
+    background-color: #FFEFEF;
+    font-family: "Kalam", cursive;
+}
+.about h2{
+    padding-left:45%;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.explain{
+    text-align: center;
+    padding-right:200px;
+    padding-left:200px;
+    padding-top: 20px;
+    
+    font-weight: 100;
+    font-size: 25px;
+  
+    line-height: 1.5;
+}
+.skill-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height:500px
+   
+}
+.skillheading{
+    padding-bottom: 40px;
+}
+.first h3{
+    padding-top: 20px;
+    padding-bottom:20px
+}
+.first p{
+    line-height: 1.9;
+    font-size:17px
+}
+#third-section{
+    height:120vh;
+    font-family: "Kalam", cursive;
+}
+.pro h2{
+    padding-left:45%;
+    padding-top: 50px;
+    font-size: 35px;
+}
+.project-container{
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr; 
+    grid-template-rows: 1fr 1fr ;
+    gap:40px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top:150px
+
+}
+.proj{
+   
+    height:400px;
+    width:380px;
+   
+}
+.proj p{
+    margin-top:10px
+}
+
+#more{
+    padding-top: 100px;
+}
+#what{
+    padding-left:45%;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#forth-container{
+    height:100vh;
+    background-color: #FFEFEF;
+    font-family: "Kalam", cursive;
+    padding-left:40%
+}
+
+
+.contact-container{
+    height:100vh;
+  
+}
+.contact-left{
+    display:flex;
+    flex-direction:column;
+    align-items: start;
+   
+    gap:20px
+}
+.contact-left-title h2{
+    font-weight: 700px;
+    font-size:50px;
+    color:black;
+    margin-bottom:10px;
+
+
+    
+}
+.contact-left-title hr{
+    width:400px;
+    height:5px;
+    
+    border:none;
+
+    margin-bottom:10px
+
+}
+.contact-inputs{
+    width:400px;
+    height:50px;
+    border:none;
+    border-radius:50px;
+    outline:none;
+    padding-left:25px;
+    color:grey;
+    font-size:16px
+
+}
+.contact-left textarea{
+    height:120px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right:10px;
+    
+}
+.contact-inputs:focus{
+    border:2px solid #DEAC80
+}
+.contact-input::placeholder{
+    color:grey;
+    font-family: "Kalam", cursive;
+
+}
+button{
+    display:flex;
+    align-items: center;
+    height:40px;
+    color:white;
+    width: 90px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: brown;
+    padding-left:20px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor:pointer
+
+}
+@media(max-width:800px){
+    .contact-inputs{
+        width:80vm;
+    }
+}
+.footer{
+    background-color:#F3D0D7 ;
+    height:300px
+}
+.icons{
+    text-align: center;
+    padding-top:30px;
+    
+}
+
+
+.fa-brands.fa-linkedin{
+    color:#0077b5;
+    margin-right:20px
+}
+.fa-brands.fa-github{
+    color:black
+}
+#copyright{
+    text-align: center;
+    padding-top:40px
+}

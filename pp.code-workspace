@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../DOM/weather-app-img"
+		},
+		{
+			"path": "../../../../Downloads/10.3+Mondrian+Project (2)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pp"
+	}
+}
